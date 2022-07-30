@@ -1,0 +1,586 @@
+// responsev navbar
+@media (max-width:769px){
+    .hedar{
+      height: 300px;
+        .nav{
+          width: 100%;
+          height: 100px;
+          .d1{
+              width: 100%;
+              display: block;
+              text-align: center;
+              .logo{
+            //    width: 100%;
+               margin-top:45px;
+             
+              }
+          }
+          .d2{
+              width: 100%;
+              position: relative;
+              .chck{
+                  width: 100%;
+                  height: 30px;
+                  margin-top: 20px;
+                  position: relative;
+                  
+                }
+              .checkbtn{
+                  display: block;
+                  position: absolute;
+                  top: -22px;
+              }
+              ul{
+                
+                  position: fixed;
+                  width: 100%;
+                  height: 40vh;
+                  background-color:rgba(255, 255, 255, 0.69);
+                  left: -150%;
+             
+                  text-align:center;
+                  transition-duration: 700ms;
+                
+                  li{
+                      display: block;
+                     
+                     margin-top: 20px;
+                      a{
+                          font-size: 15px;
+                        
+                        
+                      }&:after{
+                          width: 0%;
+                      }
+                  }
+                      }
+                  
+      
+             #check:checked ~ ul{
+              left: 0%;
+              }
+          }
+          
+         
+      
+      
+      }
+    }
+}
+@media (max-width:500px){
+    .hedar{
+        .nav{
+         
+            .d1{
+                .logo{
+                    img{
+                        width: 150px;
+                        margin-top: -10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:300px){
+    .hedar{
+        .nav{
+            .d1{
+                .logo{
+                    img{
+                        width: 120px;
+                        margin-top: -20px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:769px) and (max-width:1100px){
+    .hedar{
+        .nav{
+            .d1{
+                .logo{
+                    
+                    img{
+                        width: 110px;
+                        margin-top: 5px;
+                    }
+                }
+
+            }
+            .d2{
+                width: 150%;
+                ul{
+                    li{
+                        a{
+                           font-size: 12px;
+                          margin-right:15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:900px) and (max-width:1100px){
+    .hedar{
+        .nav{
+            .d1{
+                .logo{
+                    
+                    img{
+                        width: 120px;
+                        margin-top: 5px;
+                    }
+                }
+
+            }
+            .d2{
+                width: 150%;
+                ul{
+                    li{
+                        a{
+                           font-size: 14px;
+                          margin-right:13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// responsev navbar
+
+// responsev About
+@media (max-width:500px){
+    .About{
+        height: 600px;
+        .d1{
+            width: 95%;
+
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            h3,h2{
+                font-size: 20px;
+                span{
+                    font-size: 25px;
+                }
+            }
+            p{
+                width: 100%;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+@media (max-width:350px){
+    .About{
+        height: 545px;
+        .d1{
+            width: 95%;
+            img{
+                width: 90px;
+                height: 90px;
+            }
+            h3,h2{
+                font-size: 18px;
+                span{
+                    font-size: 22px;
+                }
+            }
+            h2::after{
+                top: 40px;
+            }
+            p{
+                width: 100%;
+                font-size: 15px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+// responsev About
+
+// rasbonsev blog
+@media (min-width:900px) and (max-width:1000px){
+    .blog{
+        .d2{
+            width: 80%;
+        }
+    }
+}
+@media (min-width:769px) and (max-width:900px){
+    .blog{
+        height: 1800px;
+        .d2{
+            width: 100%;
+            grid-template-columns: repeat(1,80%);
+            justify-content: center;
+
+        }
+    }
+}
+@media (min-width:400px) and (max-width:769px){
+    .blog{
+        height: 500vh;
+        .d2{
+            width: 100%;
+            grid-template-columns: repeat(1,80%);
+            justify-content: center;
+
+            .left{
+                .d11{
+                    height: 500px;
+                    grid-template-columns: repeat(1,90%);
+                    justify-content: center; 
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    .img{
+                        height: 300px;
+                        
+                    }
+                    .dd2{
+                        height: 200px;
+                        i{
+                            display: none;
+                        }
+                        h3{
+                            font-size: 15px;
+                        }
+                        h3::after{
+                            content: "";
+                            position: absolute;
+                            width: 120px;
+                            height: 1px;
+                            top: 70px;
+                            left: 50%;
+                            transform: translate(-50%);
+                            background-color: black;
+                          }
+                    }
+                }
+            }
+
+        }
+    }
+}
+@media (max-width:450px) {
+    .blog{
+        .d1{
+            h2{
+                width: 100%;
+                font-size: 20px;
+                span{
+                    font-size: 25px;
+                }
+            }
+            
+        }.d1::after{
+               
+            width: 100px;
+            top: 50px;
+            
+          }
+        height: 500vh;
+        .d2{
+            width: 100%;
+            grid-template-columns: repeat(1,95%);
+            justify-content: center;
+
+            .left{
+                .d11{
+                    height: 500px;
+                    grid-template-columns: repeat(1,100%);
+                    justify-content: center; 
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    .img{
+                        height: 300px;
+                    }
+                    .dd2{
+                        h3{
+                            font-size: 11.5px;
+                        }
+                        h3::after{
+                            
+                            top: 70px;
+                           
+                          
+                          }
+                        height: 200px;
+                        i{
+                            display: none;
+                        }
+                        
+                    }
+                }
+            }
+
+        }
+    }
+}
+// rasbonsev blog
+
+// rasbonsev MENU
+@media (min-width:950px) and (max-width:1130px){
+    .MENU{
+        .d2{
+            .dd2{
+                width: 800px;
+            }
+        }
+    }
+}
+@media (min-width:769px) and (max-width:950px){
+    .MENU{
+        height: 1150px;
+        .d2{
+            .dd2{
+                width: 600px;
+                .ddd2{
+                    .dddd2{
+                        h2{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+           a{
+            bottom: -370px;
+           }
+        }
+    }
+}
+@media (max-width:769px){
+    .MENU{
+        height: 1350px;
+        .d2{
+            .dd2{
+                width: 100%;
+                .ddd2{
+                    
+                    // box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.492);
+                    // padding: 5px;
+                    // border-radius: 5px;
+                    
+                    
+                    .dddd2{
+                        // display: block;
+                        h2{
+                            font-size: 12px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                          display: none;
+                        }
+                        span{
+                            width: 100%;
+                            top: 20px;
+                            left: 0;
+                            
+                        }
+                    }
+                }
+            }
+            a{
+                bottom: -500px;
+                left: 50%;
+                transform: translate(-50%);
+                
+}
+        }
+    }
+}
+@media (min-width:457px) and (max-width:550px){
+    .MENU{
+        height: 1400px;
+       .d1{
+        margin-bottom: 30px;
+        h2{
+            font-size: 20px;
+            span{
+                font-size: 25px;
+            }
+        }
+       }
+       .d2{
+      width: 90%;
+        h3{
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%);
+            font-size: 15px;
+            span{
+                font-size: 15px;
+            }
+        }
+        a{
+            bottom: -500px;
+
+        }
+       }
+    }
+}
+@media(max-width:457px) {
+    .MENU{
+        height: 1560px;
+       .d1{
+        margin-bottom: 30px;
+        h2{
+            font-size: 20px;
+            span{
+                font-size: 25px;
+            }
+        }
+       }
+       .d2{
+      width: 90%;
+        h3{
+            width: 100%;
+            left: 50%;
+            transform: translate(-50%);
+            font-size: 15px;
+            span{
+                font-size: 15px;
+            }
+        }
+        a{
+            padding-top: 16px;
+            width: 200px;
+            height: 30px;
+            bottom: -640px;
+
+        }
+       }
+    }
+}
+// rasbonsev MENU
+
+
+// rasbonsev NEWS
+@media (min-width:400px) and (max-width:769px){
+    .NEWS{
+        height: 600px;
+        .d1{
+            .dd1{
+                h2{
+                    font-size: 23px;
+                }
+            }
+            .dd2{
+                margin-top: 30px;
+                form{
+                    .email{
+                        margin: auto;
+                        width: 90%;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:400px){
+    .NEWS{
+        height: 600px;
+        .d1{
+            .dd1{
+                h2{
+                    font-size: 16px;
+                    span{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .dd2{
+                margin-top: 30px;
+                form{
+                    .email{
+                        margin: auto;
+                        width: 90%;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+// rasbonsev NEWS
+
+// rasbonsev CONTACTS
+@media (max-width:550px){
+    .CONTACTS{
+        .d2{
+            form{
+                textarea{
+                    width: 97%;
+                    
+                    
+                }
+              input[type=submit]{
+                width: 97%;
+        
+              }
+            }
+        }
+    }
+}
+// rasbonsev CONTACTS
+
+// rasbonsev hero
+@media (max-width:850px){
+    .hero{
+       
+        .d1{
+    grid-template-columns: repeat(2,50%);
+    justify-content: center;
+    column-gap: 50px;
+     .dd13{
+        width: 500px;
+     }
+        }
+    }
+}
+@media (max-width:550px){
+    .hero{
+        .d1{
+    grid-template-columns: repeat(1,100%);
+    justify-content: center;
+    // column-gap: 50px;
+     .dd1{
+        width: 100%;
+        .ddd1{
+      width: 100%;
+            p{
+                width: 100%;
+            }
+            a{
+                margin-right: 38px;
+                i{
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    .dd12{
+       margin-top: -60px;
+    }
+    .dd13{
+       margin-top: -100px;
+    }
+        }
+        .d2{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}
+// rasbonsev hero
+
+
+
+
